@@ -9,12 +9,10 @@ export const Counter = () => {
 
   return (
     <>
-      <div>
-        <h2>Counter : {count}</h2>
-        <button onClick={() => handleClick(1)}>Incr</button>
-        <button onClick={() => setCount(0)}>Reset</button>
-        <button onClick={() => handleClick(-1)}>decr</button>
-      </div>
+      <h2>Counter : {count}</h2>
+      <button onClick={() => handleClick(1)}>+</button>
+      <button onClick={() => setCount(0)}>reset</button>
+      <button onClick={() => handleClick(-1)}>-</button>
     </>
   );
 };
