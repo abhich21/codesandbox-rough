@@ -6,6 +6,7 @@ import { Popup } from "./components/popup/Popup";
 import { InfiniteScroll1 } from "./components/infiniteScrolling/InfiniteScroll1";
 import { InfiniteScroll2 } from "./components/infiniteScrolling/InfiniteScroll2";
 import { InfiniteScroll3 } from "./components/infiniteScrolling/InfiniteScroll3";
+import Datafetching from "./components/Datafetching";
 
 export default function App() {
   return (
@@ -16,7 +17,8 @@ export default function App() {
       {/* <Popup /> */}
       {/* <InfiniteScroll1 /> */}
       {/* <InfiniteScroll2 /> */}
-      <InfiniteScroll3 />
+      {/* <InfiniteScroll3 /> */}
+      <Datafetching />
       {/* <div
         style={{
           position: "relative",
